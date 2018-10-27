@@ -4,3 +4,5 @@ function addTwoDigits(n) {
          return parseInt(a) + parseInt(b); 
       });
   }
+
+  console.log(addTwoDigits(77))

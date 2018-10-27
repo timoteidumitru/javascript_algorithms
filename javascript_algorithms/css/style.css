@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background-color: #ccc;
+}
+
+h1 {
+  padding: 1em 0;
+}
+
+#avatar {
+  margin: 2em auto;
+  width: 290px;
+  height: 266px;
+  background-size: cover;
+  background-image: url("../img/avatar.png");
+}
