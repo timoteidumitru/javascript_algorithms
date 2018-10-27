@@ -1,0 +1,24 @@
+{
+  "name": "algorithms",
+  "version": "1.0.0",
+  "description": "JavaScript lessons",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShokadinuEU/javascript_algorithms.git"
+  },
+  "keywords": [
+    "['algorithms'",
+    "'javascript",
+    "lessons']"
+  ],
+  "author": "\"Timotei Dumitru @ (dumitru.timy@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ShokadinuEU/javascript_algorithms/issues"
+  },
+  "homepage": "https://ShokadinuEU.github.io/javascript_algorithms"
+}
