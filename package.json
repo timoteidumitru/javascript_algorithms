@@ -4,7 +4,7 @@
   "description": "JavaScript lessons",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "cd javascript_algorithms && nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/ShokadinuEU/javascript_algorithms/issues"
   },
-  "homepage": "https://ShokadinuEU.github.io/javascript_algorithms"
+  "homepage": "https://ShokadinuEU.github.io/javascript_algorithms",
+  "dependencies": {
+    "nodemon": "^2.0.20"
+  }
 }
