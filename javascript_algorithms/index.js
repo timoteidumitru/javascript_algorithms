@@ -1,14 +1,28 @@
-function sumEvenNumbers(arr) {
-  let sum = 0;
-  for (let i = 0; i < arr.length; i++) {
-    const val = arr[i];
-    if (val % 2 === 0) return;
-    sum += val;
-  }
-  return sum;
-}
+// calculate average age of staffMembers
+const stafMembers = [
+  {
+    name: "John Cena",
+    travelToWorkBy: "bus",
+    age: 47,
+  },
+  {
+    name: "Mike Brown",
+    travelToWorkBy: "car",
+    age: 37,
+  },
+  {
+    name: "John Deer",
+    travelToWorkBy: "tube",
+    age: 27,
+  },
+  {
+    name: "Mihai Tim",
+    travelToWorkBy: "bike",
+    age: 21,
+  },
+];
 
-const sumEvenNumbersTotal = sumEvenNumbers([1, 2, 31, 4, 15, 16, 17]);
-console.log(sumEvenNumbersTotal);
-// which code line had a bug that is causing the wrong value to be returned from this function?
-// andwer 5
+const meanAge =
+  stafMembers.reduce((acc, curr) => curr.age + acc, 0) / stafMembers.length;
+
+console.log(meanAge);
